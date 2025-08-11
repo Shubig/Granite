@@ -5,7 +5,7 @@ function Home() {
   return (
     <>
     <div className='flex bg-amber-950 w-full h-135'>
-<div className='bg-gray-900 w-full relative'><img className='w-full h-135 shadow-2xl' src="src/assets/background3.png"/></div>
+<div className='bg-gray-900 w-full relative'><img className='w-full h-135 shadow-2xl' src="src/assets/Background.jpg"/></div>
 <div className='absolute text-6xl px-14 font-bold font-serif italic text-gray-900 mt-30 item-center'>EXPERIENCE . QUALITY . LEGACY</div>
 <div className='absolute text-5xl px-14 font-bold font-serif italic text-gray-800 mt-60 items-center'>That's The Foundation We've Built</div>
 <div className='absolute text-4xl px-14 font-bold font-serif italic text-zinc-900 mt-90 items-center'>and We'r Just Getting Started</div>
