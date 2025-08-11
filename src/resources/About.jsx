@@ -1,3 +1,6 @@
+import tilewall from "../assets/tilewall.jpg";
+import tilewall2 from "../assets/tilewall2.jpg";
+import basin from "../assets/Basin.jpg";
 function About() {
   
 
@@ -7,9 +10,9 @@ function About() {
     
     
   <div className=' flex flex-wrap justify-center gap-30 '>
-  <img src="./src/assets/tilewall.jpg" alt=""  className="h-80 shadow-2xl"/>
-    <img src="./src/assets/tilewall2.jpg" alt="" className="h-80 shadow-2xl"/>
-   <img src="./src/assets/Basin.jpg" alt="" className="h-80 shadow-2xl  "/>
+   <img src={tilewall} alt="" className="h-80 shadow-2xl" />
+    <img src={tilewall2} alt="" className="h-80 shadow-2xl" />
+  <img src={basin} alt="" className="h-80 shadow-2xl" />
   </div>
 
   <div className="mt-20 font-serif text-2xl text-gray-300 ">
