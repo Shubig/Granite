@@ -7,9 +7,9 @@ function About() {
     
     
   <div className=' flex flex-wrap justify-center gap-30 '>
-  <img src="/src/assets/Tilewall.jpg" alt=""  className="h-80 shadow-2xl"/>
-    <img src="/src/assets/Tilewall2.jpg" alt="" className="h-80 shadow-2xl"/>
-   <img src="/src/assets/Basin.jpg" alt="" className="h-80 shadow-2xl  "/>
+  <img src="/Tilewall.jpg" alt=""  className="h-80 shadow-2xl"/>
+    <img src="/Tilewall2.jpg" alt="" className="h-80 shadow-2xl"/>
+   <img src="/Basin.jpg" alt="" className="h-80 shadow-2xl  "/>
   </div>
 
   <div className="mt-20 font-serif text-2xl text-gray-300 ">
