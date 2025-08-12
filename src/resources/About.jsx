@@ -7,7 +7,7 @@ function About() {
     
     
   <div className=' flex flex-wrap justify-center gap-30 '>
-  <img src="/Tilewall.jpg" alt=""  className="h-80 shadow-2xl"/>
+  <img src="/Tileout.jpg" alt=""  className="h-80 shadow-2xl"/>
     <img src="/Tilewall2.jpg" alt="" className="h-80 shadow-2xl"/>
    <img src="/Basin.jpg" alt="" className="h-80 shadow-2xl  "/>
   </div>
