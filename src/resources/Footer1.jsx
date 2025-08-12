@@ -20,7 +20,7 @@ function Footer() {
 </div>
   <div className=' gap-20'>
 <h1 className='font-serif italic text-gray-400'>@ PHONE NO.</h1>
-<h1 className='font-serif italic text-gray-400'>0000000000</h1>
+<h1 className='font-serif italic text-gray-400'>6371903644 , 9437012431</h1>
 </div>
 
 
