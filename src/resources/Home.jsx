@@ -22,11 +22,20 @@ function Home() {
 </div></div>
 
 
+ <div className='bg-gray-700 w-full justify-center p-5 flex flex-wrap'>   
+ <p className='text-gray-400 font-serif text-4xl font-bold '>Founder & Managinng Director</p>
+</div>
+
+<div className='bg-gray-700 w-full gap-5 justify-center p-5 flex flex-wrap'>
+  <p className='text-gray-400 font-serif text-2xl'>Mr. Sunil Agarwal, Managing Director of SHREE BALAJI GRANITES  (श्रीBG), <br /> is a visionary leader with over 25 years of experience in stone and tile trade.</p>
+</div>
+<div className='bg-gray-700 w-full  justify-center flex flex-wrap'>
+  <div className='m-10 shadow-2xl'><img className="w-70 " src='/Founder.jpg'/></div></div>
 
 <div className='flex justify-center'>
   <div className='relative shadow-2xl'><img src="/Slab.png" alt="" /></div>
   <div className='absolute shadow-2xl'><img src="/Slabshade.png" alt="" /></div>
-  <div className='absolute p-10'><img src="/Slabtext.png" alt="" /></div>
+
 </div>
 
 

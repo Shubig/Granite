@@ -30,6 +30,7 @@ export default function App() {
     two: useRef(null),
     three: useRef(null),
     four: useRef(null),
+    five: useRef(null),
   };
 
   const scrollToSection = (sectionKey) => {
@@ -63,6 +64,12 @@ export default function App() {
           className="px-4 py-2 bg-yellow-700 text-white rounded-lg hover:bg-yellow-400 transition"
         >
           Bulk Ordering
+        </button>
+        <button
+          onClick={() => scrollToSection("five")}
+          className="px-4 py-2 bg-yellow-700 text-white rounded-lg hover:bg-yellow-400 transition"
+        >
+          Handcrafts
         </button>
       </div>
       
@@ -112,7 +119,7 @@ export default function App() {
           <h2 className="text-xl font-bold mb-2">MATERIAL SUPPLY</h2>
 <div className=" flex flex-wrap justify-center gap-20">
           <img src="/Buildings.jpg"className="w-60"/>
-          <img src="/Map.jpeg"className="w-100 "/>
+          <img src="/Map1.jpg"className="w-100 "/>
          </div>
          <p className="m-5 font-serif text-2xl text-gray-600">Our material supply service ensures a steady and reliable flow of premium granite, marble, and natural stone for projects of every scale. We source high-grade stone directly from trusted quarries, both locally and internationally, to offer a wide selection of colors, patterns, and finishes. <br /><br /> Each slab is carefully inspected for quality, cut to precise dimensions, and processed using advanced machinery for a flawless finish. With well-stocked inventory and organized storage facilities, we are equipped to meet urgent orders and large-volume requirements without compromising on quality. Whether supplying raw slabs, polished tiles, or custom-cut pieces, our team coordinates closely with contractors, architects, and homeowners to ensure the right material reaches the right place at the right time. We offer flexible supply schedules, from single-piece requirements to regular bulk deliveries, supported by our efficient logistics network. <br /><br /> By combining dependable sourcing, meticulous quality control, and prompt delivery, we make sure your project always has the finest materials it needs to succeed.</p>
          
@@ -129,10 +136,26 @@ export default function App() {
          <div className=" flex flex-wrap justify-center gap-10">
             <img className=" w-50 h-50 shadow-2xl" src="/Tileground.jpg"/>
             <img className=" w-50 h-50 shadow-2xl" src="/Bulk2.jpg"/>
+            <img className=" w-50 h-50 shadow-2xl" src="/Bulk3.jpg"/>
             <img className=" w-50 h-50 shadow-2xl" src="/Tileground2.jpg"/>
            </div>
            <p className="m-5 font-serif text-2xl text-gray-600">Our bulk ordering service is tailored for contractors, builders, architects, and large-scale project managers who require premium granite, marble, and natural stone in high volumes. We specialize in supplying consistent quality across every slab, ensuring uniform color, pattern, and finish to meet the exact specifications of your project. <br /><br /> With direct sourcing from trusted quarries and a robust inventory system, we are able to fulfill large orders promptly without compromising on quality. Our advanced processing facilities allow for precision cutting, polishing, and customization, so every piece arrives ready for installation. <br /><br /> We offer competitive bulk pricing, flexible payment terms, and coordinated delivery schedules to align with your construction timelines. Our logistics team ensures safe transport using specialized vehicles and secure packaging, minimizing the risk of damage during transit. Whether it’s for residential developments, commercial complexes, or public infrastructure projects, our bulk ordering solution provides the scale, reliability, and professional service you need to keep your project running smoothly from start to finish.</p>
         </div>
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <div
+          ref={sectionRefs.five}
+          className="p-8 bg-orange-100 rounded-lg shadow"
+        >
+          <h2 className="text-xl font-bold mb-2">HANDCRAFTS</h2>
+          <div className=" flex flex-wrap justify-center gap-10">
+          <img className=" w-50 h-50 shadow-2xl" src="/Handcraft1.jpg"/>
+          <img className=" w-50 h-50 shadow-2xl" src="/Handcraft2.jpg"/>
+          <img className=" w-50 h-50 shadow-2xl" src="/Handcraft3.jpg"/>
+          </div>
+          <p className="m-5 font-serif text-2xl text-gray-600">Discover the timeless beauty of handcrafted marbles at our granite showroom. Each piece is carefully selected and meticulously crafted by skilled artisans to bring unmatched elegance and durability to your space. Our handcrafted marbles showcase natural veining, rich textures, and unique patterns that add a luxurious touch to interiors, from kitchens and bathrooms to flooring and walls. We take pride in offering premium-quality materials that blend tradition with modern design, ensuring your project stands out. Whether you're renovating or building new, our handcrafted marble collection offers the perfect combination of artistry and strength for a truly refined and lasting impression.</p>
+          
+          </div>
       </ErrorBoundary>
     </div>
   );

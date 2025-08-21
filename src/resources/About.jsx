@@ -24,7 +24,30 @@ At the core of our values lies a deep commitment to quality, integrity, and cust
 Today, as we continue to innovate while honoring our traditions, we remain committed to delivering natural stone solutions that will inspire for generations to come.</h1>
 </div>
 
+<div className='bg-gray-700 w-full py-10 justify-items-center' >
+  <p className='font-serif text-4xl text-gray-300 mb-5 font-bold '>MISSION</p>
+  <p className='font-serif text-2xl text-gray-300  mb-5'>To be a trusted leader in the natural stone and flooring industry by delivering timeless quality, innovative designs, and sustainable solutions. We envision creating spaces that blend elegance with durability, setting benchmarks in craftsmanship, customer satisfaction, and ethical business practices. 
+</p>
+  <p className='font-serif text-4xl text-gray-300 font-bold mb-5'>VISION</p>
+  <p className='font-serif text-2xl text-gray-300 mb-5'>Our goal is to expand our legacy beyond borders, becoming a globally recognized name in granite, marble, and flooring excellence.</p>
+</div>
 
+<div className='bg-gray-700 w-full py-10 justify-items-center' >
+<p className='font-serif text-4xl text-gray-300 mb-8 font-bold '>OUR CLIENTS</p>
+          <div className=" flex flex-wrap mb-5 justify-center gap-10">
+          <img className=" w-50 h-50 shadow-2xl" src="/Client3.jpg"/>
+          <img className=" w-50 h-50 shadow-2xl" src="/Client4.jpg"/>
+          <img className=" w-50 h-50 shadow-2xl" src="/Client5.jpg"/>
+          </div>
+
+          <div className=" flex flex-wrap mb-8 justify-center gap-10">
+          <img className=" w-50 h-50 shadow-2xl" src="/Client1.jpg"/>
+          <img className=" w-50 h-50 shadow-2xl" src="/Client2.jpg"/>
+          <img className=" w-50 h-50 shadow-2xl" src="/Client6.jpg"/>
+          </div>
+          <p className='font-serif text-2xl text-gray-300  mb-5'>We are proud to serve a diverse range of customers, from homeowners and builders to architects and corporate partners, who trust us for our quality, reliability, and service. Their continued support and long-term relationships inspire us to consistently deliver excellence and innovate to meet their evolving needs.</p>
+  
+</div>
 
 
     </div>

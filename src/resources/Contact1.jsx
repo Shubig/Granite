@@ -7,7 +7,7 @@ function Contact() {
             <p className="text-4xl font-bold font-serif"> SHREE BALAJI GRANITES</p>
             <p className="text-2xl font-bold font-sans"> Location - Patapur, Trisulia ,754005</p>
             <p className="text-2xl font-bold font-sans"> Mobile1 - 6371903644</p>
-            <p className="text-2xl font-bold font-sans"> Mobile2 - 943712431</p>
+            <p className="text-2xl font-bold font-sans"> Mobile2 - 9861010754</p>
             <div className="flex flex-wrap">
             <p className="text-2xl font-bold font-sans"> E-Mail - shreebalagigranites22</p>
             <p className="text-2xl font-bold font-sans"> @gmail.com</p>
